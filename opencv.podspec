@@ -22,5 +22,5 @@ Pod::Spec.new do |s|
 
   s.source       = { :http => "https://github.com/opencv/opencv/releases/download/4.2.0/opencv-4.2.0-ios-framework.zip"}
   
-  s.vendored_frameworks = ["opencv2.framework"]
+  s.vendored_frameworks = "opencv2.framework"
 end
