@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   
   s.author       = { "opencv" => "opencv@opencv.com" }
 
-  s.source       = { :git => "https://github.com/opencv/opencv/releases/download/4.2.0/opencv-4.2.0-ios-framework.zip"}
+  s.source       = { :http => "https://github.com/opencv/opencv/releases/download/4.2.0/opencv-4.2.0-ios-framework.zip"}
   
   s.vendored_frameworks = ["opencv2.framework"]
 end
